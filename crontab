@@ -1,0 +1,5 @@
+0,10,20,30,40,50 * * * * /usr/bin/python /base/main.py
+# * * * * * root /base/env/bin/python3 /base/main.py >> /var/log/cron.log 2>&1
+# DEFAULT
+5 14 */2 * * root /base/env/bin/python3 /base/vk_ping.py 1_ivtf 1_pmi 2_pm 2_pmi 3_pmi 3_pm 4_pmi 4_pm >> /var/log/cron.log
+

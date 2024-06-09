@@ -1,0 +1,5 @@
+services:
+  sem_forms:
+    image: sem-forms
+    build:
+      context: .
